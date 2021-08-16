@@ -1,0 +1,68 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, Thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice talking to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you do?" , "What can you do?", "How can you help me?" ,"What help can you provide?", "How you can be helpful?", "What support is offered?"],
+         "responses": ["I can provide Information on College Profile, Fee structure, Courses Offered, Branches under each course, List of Departments, Campus Life, Placement Cell, Contact Us Information"],
+         "context": [""]
+        },
+        {"tag": "College Profile",
+        "patterns": ["Tell me about the college", "Agra College History","Agra College Information"],
+        "responses": ["Agra College enjoys the privilege of being the oldest institution of learning in North India. It was established in 1823 A.D. with the pioneering efforts of the noted Sanskrit scholar and astrologer Pandit Gangadhar Shastri. Among its alumni are personalities like Pt. K.D. Paliwal, Sir Tej Bahadur Sapru, Shri Gopal Swaroop Pathak, Justice S.K. Dhar, Shri Gulzari Lal Nanda, Chaudhary Charan Singh and a host of others. In 1924, the college celebrated its centenary, which was graced by the then Viceroy, Sir R. D. Issac. Originally, the college was affiliated to Calcutta University, then from 1887 to 1926, it was affiliated to Allahabad University and since 1927, it has been affiliated to Dr. B.R. Ambedkar University, Agra (formerly known as Agra University). In keeping with its commitment to academic excellence and continuous development, Agra College, Agra added another feather to its cap in 1999 with the establishment of Faculty of Engineering and Technology (under self-finance scheme). This was in addition to existing four Faculties - Science, Arts, Fine Arts and Law. The Faculty of Engineering & Technology is duly recognized by the All India Council for Technical Education (AICTE), New Delhi, Ministry of H.R.D. Govt. of India, New Delhi, and affiliated to Dr. A.P.J. Abdul Kalam Technical University (Formerly UPTU), Lucknow, which underlines our strength and development potential. With respect to infrastructure and engineering education, the faculty is far ahead of the standard and parameters laid down by AICTE."],
+        "context": [""]
+        },
+        {"tag": "Fee structure of B.Tech Course",
+         "patterns": ["Fee of Mechanical Branch", "Fee of Computer Science & Engineering", "Fee of Civil Engineering branch", "Fee of Electrical Engineering Branch", "Fee of Electronic Engineering Branch" ],
+         "responses": ["Rupees Sixty-Three Thousand Only.*"],
+         "context": [""]
+        },
+        {"tag": "Courses Offered",
+        "patterns": ["Undergraduate Courses", "Post-Graduate Courses", "UG/PG Courses" ],
+        "responses": ["Undergraduate Courses - (B.Tech, BBA, BCA), Postgraduate Courses - (M.Tech.)"],
+        "context": ["Branches"]
+        },
+        {"tag": "Branches",
+        "patterns": ["UG Courses","PG Courses" ],
+        "responses": ["B.Tech. - [Computer Science and Engineering, Electrical Engineering, Mechanical Engineering, Civil Engineering, Electronics amd Communication Engineering]", "M.Tech - [Computer Science and Engineering]"],
+        "context": [""]
+        },
+        {"tag": "List of Departments",
+         "patterns": [" List of Departments","Departments","What are all the different departments?" ],
+         "responses": ["Department of Computer Science & Engineering, Department of Electrical Engineering, Department of Mechanical Engineering, Department of Civil Engineering,  Department of Electronics & Communication Engineering, Department of Applied Science & Humanities, Department of Business Administration,  Department of Computer Application"],
+         "context": [""]
+        },
+        {"tag": "Campus Life",
+         "patterns": ["Campus Life","Labs","Libraray","Canteen","Sports","Hostel" ],
+         "responses": ["The Campus Life includes All Academic Labs for all departments, A Well-hygeinic Canteen, he Faculty has its own playground with national level cricket turf, gym, football, basket ball, table tennis, indoor badminton hall and other modern sports facilities, which take care of the physical development and entertainment of the students. The Faculty library is located in a spacious, brilliantly lit, comfortable and airyhall. In the Library we have around 20 thousand valuable books & variety of journals and magazines. The faculty provides separate hostels for both boys and girls with spacious and well-furnished rooms. "],
+         "context": [""]
+        },
+        {"tag": "Placement",
+         "patterns": ["Information about placements","Placement Team"],
+         "responses": ["The Faculty has a strong and dedicated Training and Placement Cell, which helps students in their personality development, communication skills, group discussion, career building and advancement. Arrangement for the Campus Interviews at the end of degree programme are a regular feature. Our Students have been place in reputed firms and industrial concerns, both in private and public sector, like INFOSYS, TCS, WIPRO, L & T INFOTECH, HCL TECHNOLOGIES, ITC INFOTECH, AMAZON, JUSTDIAL„ CAPEGEMINI, TECHMAHINDRA, GLOBAL LOGIC, NAGARRO, CISCO, NHAI, ORACLE, SOPRASTERIA etc.","Dr. Anurag Sharma, Dr. RK Sharma, Dr Varun Maheshwari, Er. Rahul Jain,Er. Rahul Anshumali"],
+         "context": [""]
+        },
+        {"tag": "Contact Us",
+         "patterns": ["Location","Phone no","Email ID","Website" ],
+         "responses": ["Faculty of Engineering & Technology, Agra College, Mahatma Gandhi Road, Agra, Uttar Pradesh 282001","0562-2480486","principal@agracollegeagra.org.in","www.fetagracollege.org.in"],
+         "context": [""]
+        }
+   ]
+}
